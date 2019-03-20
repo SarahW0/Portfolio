@@ -1,0 +1,35 @@
+@media screen and (max-width: 400px) {
+  .section-title {
+    letter-spacing: 0.2em;
+  }
+
+  .about-background {
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(234, 248, 234, 0.9),
+        rgba(221, 252, 209, 0.9)
+      ),
+      url(../img/markus-spiske-666905-unsplash-small.jpg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-title {
+    font-size: 3.5em;
+  }
+
+  .about-subtitle {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px) {
+  .about-background {
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(234, 248, 234, 0.9),
+        rgba(221, 252, 209, 0.9)
+      ),
+      url(../img/markus-spiske-666905-unsplash-large.jpg);
+  }
+}
